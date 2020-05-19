@@ -1,0 +1,20 @@
+Return square root given the number
+// For example, sqrt(4) = 2; sqrt(8) => 2.828282 returns 2
+public int sqrtRoot(int givenInt)
+{
+	for(int i = 0; i < givenInt; i++)
+	{
+		if(i * i == givenInt)
+		{
+		       return i;
+		}
+		else if(i * i > givenInt)
+		{
+		       return i - 1;
+		}
+		else
+		{
+			continue;
+		}
+	}
+}
