@@ -1,0 +1,34 @@
+1. HackerRank
+2. LeetCode
+3. Project Euler
+4. gr-okking the coding interview
+5. gr-okking dynamic programming questions
+6. Cracking the coding interview
+7. Elements of programming interviews
+8. Algorithmic puzzles
+9. Programming pearls 
+10. youtube vidoes about highscalability.com
+
+Collecting from these websites 
+Misc coding question
+1. Count island given a matrix. The island could have invalid input, one can move across diagonals as well. 
+2. Find the number of subsequences such that min(subSeq) + max(subSeq) == k; modify for min(subSeq) + max(subSeq) <= k; => pretty time versus space carefulness
+3. IsSplitPossible() => given an array, is it possible to split the array in two parts such that the sum of the parts is equal => split array using indices since all indices of the array has to be used for splitting the array and getting the sum 
+4. kthLargest number in an array => space not a constraint, use a tree to store k values as a heap and return the smallest maintaining heap as a minHeap
+5. Implement readLine() using read4k() => is this not using a /n search for the string and ensuring that each line is being read from the 4k() lines that have been given
+
+Design questions: ("gr-okking the system design interview")
+1. Design an API for searching content information
+2. Choose a data structure for search function; implement search function
+3. Design a service for sending notifications when a stock price changes
+4. Given a quantityDict, priceDict and orderDict, return total bill and update quantity dict. Partial fulfillment team. Implement which takes an artist and a song as an input, updates the song playcount and play the song. Also implement function getTopSong function which takes an artist as an input and returns the artist top song.
+5. Given a TicTacToe board, verify if a player has won the same. 
+6. Given a grid with random characters and a dictionary with words, find all words that can be created in a board. The words can occur multiple times.=> Starting a DFS for every character in the grid?? (Given a dictionary, words could be searched for DFS for each character in the dictionary)
+7. Integrate rotten tomato ratings in siri's video response. (Patch?)
+8. Implement a dictionary => were the things discussed hashing function, collision resolution, load factor and expansion once full; implemented dict in c# using a list (Tanenbaum)
+   Getting a hash function, ensuring that each one hashes into the same bucket, discuss hash collision, implementation one of re-hash mechanisms. Choose the data structure that avoids the hashing
+9. Implement a IsPalindrome function. Then implement a function, that takes string an an input, and returns a score based on how different it is from a palindrome. => Position based changes and value based changes. Number of characters that are already matching, if they are in the right positions or just characters present in wrong positions too. 
+10. Design an image download library/component/service 
+11. Design a compiler of a languauge like c# or java
+12.  
+   
